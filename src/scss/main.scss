@@ -1,0 +1,19 @@
+// abstract
+@import "../scss/abstract/mixins";
+@import "../scss/abstract/variables";
+
+// base
+@import "../scss/base/base";
+
+// components
+@import "../scss/component/home";
+@import "../scss/component/homie";
+@import "../scss/component/navbar";
+@import "../scss/component/welcome";
+@import "../scss/component/bookstore";
+@import "../scss/component/settings";
+@import "../scss/component/products";
+
+// pages
+@import "../scss/pages/auth";
+@import "../scss/pages/dashboard";

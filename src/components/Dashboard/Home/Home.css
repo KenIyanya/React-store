@@ -1,0 +1,22 @@
+.home {
+  background-image: url(../Home/hotel1.jpg);
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+}
+
+.home h3{
+  color: rgb(48, 44, 32);
+  margin-top: 0em;
+  padding-top: 1em;
+  font-size: 4em;
+}
+
+.home h1{
+  color: rgb(214, 170, 51);
+  font-size: 10em;
+}
+
+.home h2{
+  font-size: 4em;
+}
