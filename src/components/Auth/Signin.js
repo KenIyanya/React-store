@@ -65,9 +65,9 @@ function SignIn () {
                 <form onSubmit={submitHandler}  >
                     
                     <input type="email" required placeholder="Contact Email" name="email" onChange={handleChange} />
-                    <p> {form.email} </p>
+                    
                     <input type="password" required placeholder="password" name="password" onChange={handleChange} />
-                    <p> {form.password} </p>
+                   
                     <div style={{display:"flex", alignItems:"flex-start"}}>
                         <input type="checkbox" style={{width:"25px", margin:"-7px 7px 0 0"}} id="readTerms" />
                         <p >I have read, understood and i agree to the terms and conditions</p>
