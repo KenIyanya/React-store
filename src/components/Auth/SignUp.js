@@ -63,15 +63,15 @@ function SignUp () {
                 <form onSubmit={submitHandler}  >
                     
                     <input type="text" placeholder=" Name" name="name" onChange={handleChange} />
-                    <p> {form.name} </p>
+                   
                     <input type="text" placeholder=" Country" name="country" onChange={handleChange} />
-                    <p> {form.country} </p>
+                  
                     <input type="text" required placeholder="Address" name="address" onChange={handleChange} />
-                    <p> {form.address} </p>
+                   
                     <input type="email" required placeholder="Contact Email" name="email" onChange={handleChange} />
-                    <p> {form.email} </p>
+                   
                     <input type="text" required placeholder="Phone Number" name="phoneNumber" onChange={handleChange} />
-                    <p> {form.phoneNumber} </p>
+                    
                     <div style={{display:"flex", alignItems:"flex-start"}}>
                         <input type="checkbox" style={{width:"25px", margin:"-7px 7px 0 0"}} id="readTerms" />
                         <p >I have read, understood and i agree to the terms and conditions</p>
